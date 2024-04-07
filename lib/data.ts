@@ -35,12 +35,13 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer Intern @ NesLab(Polimi)",
+    location: "Milano, Italy",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      `Developed a C++ Program for Bitcraze Drones called Crazyflie (STM32 and GAP8) under supervision of Professor Mottola Luca at Networked Embedded Software Lab of Polimi.\ 
+      Also Designed a Python application for the AI deck of Bitcraze Drones with the purpose of enabling them to achieve flight capabilities and facial recognition.`,
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
@@ -85,6 +86,12 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "Java",
+  "Linux",
+  "TCP/IP",
+  "Wireless networks(4g & 5g)",
+  "Git",
   "HTML",
   "CSS",
   "JavaScript",
@@ -92,16 +99,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "MongoDB and MySQL",
   "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
-  "Python",
   "Django",
   "Framer Motion",
 ] as const;
