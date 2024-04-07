@@ -44,18 +44,18 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "-------------",
+    location: "------------",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "-------------------",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "-------------",
+    location: "----------------",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "------------------",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -63,25 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Data Analysis in LTE​ Networks​",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I Utilized Supervised Machine Learning to Analyze Mobile Operator Data and Enhance Service Quality and Customer Experience..",
+    tags: ["Python", "Matlab", "Cellular networks KPIs"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Information system for managing pandemic information",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Design, store, and a query graph data structure in a NoSQL DB for supporting a contact tracing application for COVID-19.",
+    tags: ["ER diagram", "Neo4j", "SQL"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "IoT-Based Home Security System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I engineered a comprehensive home security system, including the ESP8266 and SIM900 modules, in conjunction with advanced motion detection sensors with the help of the Internet of Things(IoT) and the MQTT Protocol.",
+    tags: ["MQTT", "ESP8266", "IOT", "SIM900"],
+    //imageUrl: wordanalyticsImg,
   },
 ] as const;
 
