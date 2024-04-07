@@ -81,7 +81,7 @@ export const projectsData = [
     description:
       "I engineered a comprehensive home security system, including the ESP8266 and SIM900 modules, in conjunction with advanced motion detection sensors with the help of the Internet of Things(IoT) and the MQTT Protocol.",
     tags: ["MQTT", "ESP8266", "IOT", "SIM900"],
-    //imageUrl: wordanalyticsImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
