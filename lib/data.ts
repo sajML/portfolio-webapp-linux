@@ -35,8 +35,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer Intern @ NesLab(Polimi)",
-    location: "Milano, Italy",
+    title: "Software Engineer Intern ",
+    location: "Milano, Italy @ NesLab(Polimi)",
     description:
       `Developed a C++ Program for Bitcraze Drones called Crazyflie (STM32 and GAP8) under supervision of Professor Mottola Luca at Networked Embedded Software Lab of Polimi.\ 
       Also Designed a Python application for the AI deck of Bitcraze Drones with the purpose of enabling them to achieve flight capabilities and facial recognition.`,
@@ -44,20 +44,12 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "-------------",
-    location: "------------",
+    title: "Linux System Admin",
+    location: "Research Institute of Information Technology and Communications@ISFAHAN",
     description:
-      "-------------------",
+      "Set up security using SUDO, TCP WRAPPERS / Experience in writing shell/bash scripts",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "-------------",
-    location: "----------------",
-    description:
-      "------------------",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2020 - 2021",
   },
 ] as const;
 

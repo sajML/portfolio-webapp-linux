@@ -33,18 +33,17 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Python, React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with TypeScript and Java. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">full-time position</span> in a well known company.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy learning new things. I am currently learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy exercising and meditating. I am currently learning about{" "}
+        <span className="font-medium">neuroscience and philosophy</span>. I'm always looking for new challenges. I'm also
+        learning how to deploy LLMs! 
       </p>
     </motion.section>
   );
